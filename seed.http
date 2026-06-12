@@ -1,0 +1,705 @@
+POST http://127.0.0.1:8000/api/items/
+Content-Type: application/json
+
+[
+  {
+    "model": "AeroWeave Blazer",
+    "description": "A lightweight, breathable unconstructed blazer perfect for smart-casual summer layering.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Navy Blue", "Sand Beige", "Charcoal"]
+  },
+  {
+    "model": "ThermaCheck Fleece",
+    "description": "Heavyweight anti-pilling fleece jacket designed with a high-neck collar for maximum wind protection.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Sage Green", "Oatmeal", "Black"]
+  },
+  {
+    "model": "UrbanCargo Pants",
+    "description": "Relaxed-fit ripstop cargo pants featuring water-resistant coating and six-pocket utility layout.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Olive Drab", "Khaki", "Stealth Black"]
+  },
+  {
+    "model": "MerinoBlend Crewneck",
+    "description": "Fine-gauge knit sweater made from ethically sourced Merino wool and recycled nylon for durability.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Burgundy", "Heather Grey", "Camel"]
+  },
+  {
+    "model": "Solstice Maxi Dress",
+    "description": "Flowing tiered maxi dress in a breathable linen blend, featuring an adjustable tie-back design.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Terracotta", "Off-White", "Midnight Blue"]
+  },
+  {
+    "model": "Apex Waterproof Shell",
+    "description": "Fully seam-sealed rain jacket with a 10k/10k waterproof rating and adjustable storm hood.",
+    "price": 150,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Crimson", "Slate Grey", "Forest Green"]
+  },
+  {
+    "model": "Chrono Denim Jacket",
+    "description": "Classic rigid denim jacket with a vintage wash, metal shank buttons, and interior storage pockets.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Indigo Wash", "Light Acid Wash", "Black Denim"]
+  },
+  {
+    "model": "Velocity Track Jacket",
+    "description": "Retro-inspired track jacket built from moisture-wicking interlock fabric with contrast piping.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Mustard Yellow", "Emerald Green", "White"]
+  },
+  {
+    "model": "Horizon Pleated Skirt",
+    "description": "High-waisted, midi-length pleated skirt with a subtle satin sheen and comfortable elastic waistband.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Champagne", "Rose Gold", "Classic Black"]
+  },
+  {
+    "model": "Stratus Puffer Vest",
+    "description": "Packable down-alternative quilted vest providing lightweight core warmth for transitional weather.",
+    "price": 130,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Burnt Orange", "Navy", "Matte Black"]
+  },
+  {
+    "model": "Nomad Linen Shirt",
+    "description": "Relaxed camp-collar shirt woven from pure European flax, softened for an instantly broken-in feel.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["White", "Sky Blue", "Olive"]
+  },
+  {
+    "model": "OmniStretch Chinos",
+    "description": "Slim-fit chinos engineered with 4-way stretch tech fabric and a hidden zippered passport pocket.",
+    "price": 128,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Dark Khaki", "Navy", "Stone"]
+  },
+  {
+    "model": "Luna Silk Camisole",
+    "description": "Luxurious washable silk camisole with a delicate V-neckline and adjustable spaghetti straps.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pearl", "Emerald", "Obsidian"]
+  },
+  {
+    "model": "Vanguard Knit Hoodie",
+    "description": "Premium loopback cotton hoodie with structured shoulders and a minimalist pouch-free front design.",
+    "price": 140,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Taupe", "Dusty Pink", "Charcoal"]
+  },
+  {
+    "model": "Elysian Wrap Top",
+    "description": "Flattering true-wrap top made from eco-vero viscose with a elegant draped ballet neckline.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Plum", "Sage", "Cream"]
+  },
+  {
+    "model": "Catalyst Anorak",
+    "description": "Wind-resistant quarter-zip overhead anorak with a spacious kangaroo pocket and toggle hemlines.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Teal", "Tan", "Black"]
+  },
+  {
+    "model": "Zephyr Running Tights",
+    "description": "High-compression, zero-slip athletic tights with reflective side panels and laser-cut ventilation.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Burgundy Fade", "Electric Blue", "Dark Shadow"]
+  },
+  {
+    "model": "Siren Ribbed Dress",
+    "description": "Bodycon midi dress in a heavy stretch-rib knit that effortlessly holds its shape through wears.",
+    "price": 138,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Rust", "Chocolate Brown", "True Black"]
+  },
+  {
+    "model": "Breaker Deck Shorts",
+    "description": "Tailored swim-to-street hybrid walkshorts with quick-dry capabilities and mesh-lined pockets.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Coral Reef", "Steel Blue", "Sand"]
+  },
+  {
+    "model": "Alpine Cable Sweater",
+    "description": "Traditional heavy cable-knit sweater reimagined with an ultra-soft merino and alpaca wool blend.",
+    "price": 148,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Ivory", "Soft Grey", "Forest Moss"]
+  },
+  {
+    "model": "Voyager Utility Shirt",
+    "description": "Rugged canvas overshirt featuring reinforced elbows, dual chest pockets, and copper snap closures.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Tobacco", "Dusty Olive", "Charcoal"]
+  },
+  {
+    "model": "Solas Linen Trousers",
+    "description": "Wide-leg linen pants with a flat-front waist design and elasticized backing for comfort.",
+    "price": 130,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Natural Flax", "Navy Blue", "White"]
+  },
+  {
+    "model": "Monolith Heavy Hoodie",
+    "description": "Massive 500gsm custom-knit cotton hoodie featuring a stiff, double-layered hood without drawcords.",
+    "price": 150,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Bone", "Vintage Black", "Sulphur"]
+  },
+  {
+    "model": "Aura Mesh Jersey",
+    "description": "Streetwear-inspired breathable mesh soccer jersey with embroidered chest patches and ribbed cuffs.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Monochrome", "Neon Green/Black", "Burgundy/Gold"]
+  },
+  {
+    "model": "Halcyon Silk Scarf Blouse",
+    "description": "Elegant long-sleeve blouse with an attached neck-tie that can be styled into a bow or left draped.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Blush Pink", "Navy Blue", "Emerald"]
+  },
+  {
+    "model": "GridLock Technical Pants",
+    "description": "Water-repellent grid-textured pants built for urban commuting, complete with articulated knees.",
+    "price": 138,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Graphite", "Dark Khaki", "Matte Black"]
+  },
+  {
+    "model": "Kinetic Tennis Dress",
+    "description": "A-line athletic dress featuring a built-in bodyshort liner with dual ball pockets.",
+    "price": 118,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Tennis White", "Lavender", "Navy"]
+  },
+  {
+    "model": "Driftwood Shacket",
+    "description": "The ultimate layering piece combining the warmth of a wool jacket with the fit of a button-down shirt.",
+    "price": 142,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Brown Plaid", "Grey Plaid", "Solid Navy"]
+  },
+  {
+    "model": "Ember Corduroy Skirt",
+    "description": "Retro button-front mini skirt made from durable, fine-wale cotton corduroy with slight stretch.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Mustard", "Cinnamon", "Deep Teal"]
+  },
+  {
+    "model": "Summit Quarter-Zip",
+    "description": "Technical mid-layer sweater with a micro-grid interior mapping system to trap body heat efficiently.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Alpine Blue", "Heather Grey", "Black"]
+  },
+  {
+    "model": "Phoenix Flight Jacket",
+    "description": "Modern satin-finish bomber jacket featuring utility arm pockets and bright orange interior lining.",
+    "price": 149,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Sage Green", "Midnight Black", "Burgundy"]
+  },
+  {
+    "model": "Lumina Slip Dress",
+    "description": "90s style bias-cut satin slip dress that drapes naturally to accentuate your silhouette.",
+    "price": 130,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Champagne", "Crimson Silk", "Midnight"]
+  },
+  {
+    "model": "Meridian Sweatpants",
+    "description": "Heavy luxury French terry sweatpants engineered with a hidden inner drawcord and cuffed ankles.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Oatmeal Melange", "Vintage Black", "Slate"]
+  },
+  {
+    "model": "Oasis Poplin Shirt",
+    "description": "Crisp organic cotton poplin button-down with an oversized fit and dropped shoulder design.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Optic White", "Blue Striped", "Lilac"]
+  },
+  {
+    "model": "Vortex Windbreaker",
+    "description": "Ultra-lightweight packable windbreaker that collapses into its own chest pocket for easy travel.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Neon Yellow", "Cobalt Blue", "Stealth Black"]
+  },
+  {
+    "model": "ThermaFit Cardigan",
+    "description": "Relaxed slouchy cardigan knit from a cozy mohair blend, featuring chunky tortoiseshell buttons.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Taupe", "Dusty Blue", "Olive"]
+  },
+  {
+    "model": "Ironwood Work Pants",
+    "description": "Double-knee utility pants forged from heavy cotton duck canvas for tough daily wear.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Duck Brown", "Charcoal", "Black"]
+  },
+  {
+    "model": "Serene Yoga Jumpsuit",
+    "description": "All-in-one buttery soft unitard designed for distraction-free movement and studio practice.",
+    "price": 118,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Plum", "Dark Forest", "Espresso"]
+  },
+  {
+    "model": "Ascent Trail Shorts",
+    "description": "Duraflex ripstop cargo trail shorts equipped with an integrated nylon webbing utility belt.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Clay", "Coyote Tan", "Black"]
+  },
+  {
+    "model": "Nova Metallic Knit",
+    "description": "Lightweight long-sleeve knit sweater infused with subtle metallic threads for an evening shimmer.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Silver/Grey", "Gold/Cream", "Bronze/Black"]
+  },
+  {
+    "model": "Breeze Linen Blazer",
+    "description": "Single-breasted linen blazer with half-lining for structured form without overheating.",
+    "price": 150,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Oatmeal", "Soft Sage", "Navy"]
+  },
+  {
+    "model": "Strata Denim Skirt",
+    "description": "Midi denim skirt featuring a high front slit, raw edge hemline, and classic 5-pocket styling.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Bleach Wash", "Mid-Indigo", "Black washed"]
+  },
+  {
+    "model": "Echo Quilted Pullover",
+    "description": "Diamond-quilted crewneck sweatshirt with a snap-button collar insert and ribbed trimmings.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Navy", "Olive Green", "Burgundy"]
+  },
+  {
+    "model": "Zenith Trench Vest",
+    "description": "Sleeveless longline trench duster with a matching storm flap and matching waist-cinching belt.",
+    "price": 140,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Classic Khaki", "Stone Grey", "Black"]
+  },
+  {
+    "model": "Quantum Joggers",
+    "description": "Sleek, tech-fleece joggers styled with long vertical zipper side pockets and tailored calves.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Heather Charcoal", "Army Green", "Black"]
+  },
+  {
+    "model": "Calypso Ruffle Top",
+    "description": "An off-the-shoulder cotton eyelet top with delicate tier ruffling and smocked elastic chest bodice.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["White", "Coral", "Yellow Sunshine"]
+  },
+  {
+    "model": "Vector Fleece Vest",
+    "description": "Deep-pile sherpa fleece vest outfitted with contrast taslan chest overlays and zip pockets.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Cream/Khaki", "Navy/Red", "All Black"]
+  },
+  {
+    "model": "Solstice Wide-Legs",
+    "description": "High-rise trousers cut from tencel twill, creating a dramatic drape and fluid motion.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Terracotta", "Dark Navy", "Sage"]
+  },
+  {
+    "model": "Aeon Merino Polo",
+    "description": "Knit short-sleeve polo shirt engineered from premium breathable merino wool with flat-knit collars.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Teal", "Charcoal", "Cream"]
+  },
+  {
+    "model": "Hydra Board Shorts",
+    "description": "High-performance surfing board shorts crafted with laser-fused hems and water-repellent tech.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Abstract Teal", "Sunset Red", "Solid Black"]
+  },
+  {
+    "model": "Origins Chore Coat",
+    "description": "Heavy canvas workers jacket with contrasting corduroy collar and trio of deep patch pockets.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Saddle Brown", "Denim Blue", "Olive"]
+  },
+  {
+    "model": "Stella Velvet Bodysuit",
+    "description": "Plunging neckline bodysuit sewn in ultra-stretch plush velvet with convenient snap closure.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Deep Wine", "Emerald Silk", "Onyx Black"]
+  },
+  {
+    "model": "Vapor Seamless Crop",
+    "description": "Long-sleeve compressive activewear crop top with integrated structural rib knit ventilation.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Lilac Sheer", "Slate", "Dark Night"]
+  },
+  {
+    "model": "Atlas Heavy Button-Down",
+    "description": "Thick 10oz cotton flannel plaid button-down shirt brushed on both sides for maximum warmth.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Red Plaid", "Green Plaid", "White/Black Plaid"]
+  },
+  {
+    "model": "Mirage Linen Slip",
+    "description": "An easy-wearing straight cut midi slip dress crafted entirely from pre-washed midweight linen.",
+    "price": 128,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Mustard", "True Navy", "White Linen"]
+  },
+  {
+    "model": "Nomad Woolen Beanie Co",
+    "description": "Includes a set of two heavy-gauge rib beanies woven from local sustainable lambswool blends.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Mustard/Grey", "Black/Oatmeal", "Navy/Olive"]
+  },
+  {
+    "model": "Titan Cargo Shorts",
+    "description": "Rugged industrial shorts with double-reinforced seat panel and multiple modular gear loops.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Coyote Brown", "Desert Tan", "Stealth Gray"]
+  },
+  {
+    "model": "Sovereign Knit Turtleneck",
+    "description": "Slender form-fitting turtleneck made from silk-infused cotton for soft layer combinations.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Winter White", "Burgundy", "Noir Black"]
+  },
+  {
+    "model": "Gale Thermal Parka Lightweight",
+    "description": "Windproof mid-length rain parka with microfiber synthetic insulation lining inside.",
+    "price": 150,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Bright Yellow", "Classic Navy", "Dark Graphite"]
+  },
+  {
+    "model": "Infinity Wrap Cardigan",
+    "description": "Asymmetrical draped knit wrap cardigan that can be fastened securely at the shoulder loop.",
+    "price": 138,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Oatmeal Heather", "Charcoal Melange", "Mauve"]
+  },
+  {
+    "model": "Aura Silk Satin Shorts",
+    "description": "Delicate pajama-style shorts constructed with premium pure mulberry satin silk and lace trims.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Champagne Blush", "Emerald Night", "Midnight"]
+  },
+  {
+    "model": "Ember Corduroy Shirt Jacket",
+    "description": "Thick vintage-wale corduroy button-front shirt jacket engineered with warm quilted inner linings.",
+    "price": 140,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Rust Orange", "Forest Khaki", "Espresso"]
+  },
+  {
+    "model": "Apex Kinetic Capris",
+    "description": "Cropped high-performance running pants featuring side secure-zipper mesh smartphone sleeves.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Electric Coral", "Deep Ocean Blue", "Black"]
+  },
+  {
+    "model": "Helios Sun Dress",
+    "description": "An open-back summer sundress with detailed criss-cross strap configurations woven in organic cotton.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Sunflower Yellow", "Aqua Sky", "Pure Pearl"]
+  },
+  {
+    "model": "Sierra Trail Fleece",
+    "description": "Quarter-snap pullover sweatshirt made completely out of post-consumer recycled plastic bottles.",
+    "price": 118,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Patterned Aztec", "Sage Mist", "Obsidian"]
+  },
+  {
+    "model": "Vanguard Cropped Bomber",
+    "description": "High-waisted silhouette bomber jacket styled with polished premium silver hardware additions.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Olive Drab", "Dusty Lavender", "Satin Black"]
+  },
+  {
+    "model": "Solitude Linen Kimono",
+    "description": "Relaxed open-front lightweight kimono wrap layer detailed with elegant dropped split sleeves.",
+    "price": 130,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Natural Ivory", "Charcoal Black", "Slate Blue"]
+  },
+  {
+    "model": "Zephyr Active Skort",
+    "description": "Pleated athletic performance skort featuring built-in undershorts with modern flatlock stitching.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pure White", "Crimson Red", "Dark Navy"]
+  },
+  {
+    "model": "Monolith Waffle Crew",
+    "description": "Ultra-heavy thermal waffle knit sweater with a reinforced crewneck line and thick ribbed wrists.",
+    "price": 122,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Bone White", "Sage Moss", "Vintage Indigo"]
+  },
+  {
+    "model": "Chrono Flare Denim",
+    "description": "Retro high-rise flare denim jeans containing engineered comfort stretch memory retention properties.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Classic Blue Wash", "Dark Indigo Rinse", "Washed Charcoal"]
+  },
+  {
+    "model": "Halcyon Linen Jumpsuit",
+    "description": "Wide utility-leg sleeveless jumpsuit constructed out of breathable lightweight flax fabrics.",
+    "price": 148,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Terracotta Red", "Olive Branch", "Deep Navy"]
+  },
+  {
+    "model": "Specter Wind Shell",
+    "description": "Translucent ultra-thin running wind breaker skin featuring a back venting system.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Frosted White", "Neon Coral", "Translucent Black"]
+  },
+  {
+    "model": "AeroStretch Polo",
+    "description": "Anti-microbial performance moisture-wicking golf polo complete with dynamic stretch fabrics.",
+    "price": 112,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Mint Green", "Sky Blue", "Classic Navy"]
+  },
+  {
+    "model": "Luna Sweater Dress",
+    "description": " Cozy knit sweater dress with a slouchy mock neckline and ribbed cuffs.",
+    "price": 142,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Oatmeal Heather", "Wine Berry", "Midnight Black"]
+  },
+  {
+    "model": "Oasis Cargo Pants",
+    "description": "Slim-line street silhouette cargo pants fitted with custom internal ankle ties.",
+    "price": 130,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Khaki Tan", "Dark Charcoal", "Army Green"]
+  },
+  {
+    "model": "Strata Ribbed Tank Pack",
+    "description": "Premium bundle containing three organic long-staple cotton high-neck classic tank tops.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["White/Grey/Black Tri-pack"]
+  },
+  {
+    "model": "Vortex Fleece Hood",
+    "description": "Technical diving-grade fleece athletic hoodie with integrated scuba-face protective shield cutouts.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Digital Camo", "Stealth Grey", "Core Black"]
+  },
+  {
+    "model": "Calypso Tiered Skirt",
+    "description": "Asymmetrical multi-tiered bohemian cotton midi skirt boasting detailed lace trim edges.",
+    "price": 118,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Desert Sage", "Blush Pink", "Off-White"]
+  },
+  {
+    "model": "Apex Waterproof Pants",
+    "description": "Rain storm tactical over-pants offering full-length side waterproof zipper track systems.",
+    "price": 140,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Slate Grey", "Matte Black"]
+  },
+  {
+    "model": "Elysian Silk Tee",
+    "description": "Relaxed everyday casual tee shirt woven entirely with luxury washed silk crepe fabrics.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pearl Cream", "Champagne Gold", "Soft Slate"]
+  },
+  {
+    "model": "Horizon Running Jacket",
+    "description": "Reflective winter night running wind-jacket engineered with inner thumbhole athletic cuffs.",
+    "price": 138,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Silver Flare", "High-Vis Yellow", "Obsidian Dark"]
+  },
+  {
+    "model": "Catalyst Hemp Shorts",
+    "description": "Casual elastic waist summer lounge shorts woven from organic hemp and organic cotton yarns.",
+    "price": 100,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Natural Linen", "Clay Dust", "Deep Navy"]
+  },
+  {
+    "model": "Summit Down Gilet",
+    "description": "Slim-fit real responsibly sourced down feather core insulating body gilet layer vest.",
+    "price": 149,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Crimson Red", "Burnt Ochre", "Stealth Black"]
+  },
+  {
+    "model": "Siren Lace Bralette Top",
+    "description": "Exquisite corded-lace structured crop corset top lined with delicate silk mesh padding.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Ivory Lace", "Burgundy Velvet", "Onyx Black"]
+  },
+  {
+    "model": "Origins Denim Overall",
+    "description": "Vintage workwear aesthetic relaxed denim dungaree overalls with double hammer loops.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Classic Indigo", "Light Retro Stonewash", "Black Overdye"]
+  },
+  {
+    "model": "Kinetic Tennis Skirt",
+    "description": "Fast-drying engineered court athletic skirt featuring high-compression storage lining layers.",
+    "price": 105,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Optic White", "Crimson", "Navy Blue"]
+  },
+  {
+    "model": "Atlas Flannel Shacket",
+    "description": "Heavy-duty button-up utility flannel shirt jacket layered with rich fleece interiors.",
+    "price": 130,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Buffalo Check Plaid", "Grey Forest Plaid", "Tan Houndstooth"]
+  },
+  {
+    "model": "Breeze Silk Kimono Cardigan",
+    "description": "Flowing lightweight pure habotai silk outer layering jacket styled with custom artisan block prints.",
+    "price": 150,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Teal Mandala", "Indigo Waves", "Monochrome Abstract"]
+  },
+  {
+    "model": "Zenith Technical Shorts",
+    "description": "Laser-perforated multi-sport shorts including integrated odor-control boxer brief base liners.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Acid Lime", "Charcoal", "Matte Black"]
+  },
+  {
+    "model": "Stella Cutout Dress",
+    "description": "Form-fitting asymmetrical rib-knit maxi dress displaying an elegant side-waist cutout design.",
+    "price": 138,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Rust Clay", "Espresso Brown", "True Midnight"]
+  },
+  {
+    "model": "Vector Fleece Anorak",
+    "description": "Half-zip polar sherpa pullover pullover featuring retro color-blocked layout patterns.",
+    "price": 125,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Teal/Purple Retro", "Tan/Cream/Navy", "Solid Forest Green"]
+  },
+  {
+    "model": "Hydra Surf Leggings",
+    "description": "UPF 50+ maximum sun protection saltwater-resistant compression ocean paddling leggings.",
+    "price": 120,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Ocean Wave Print", "Coral Sunset Gradient", "Deep Black"]
+  },
+  {
+    "model": "Solitude Linen Kimono Gown",
+    "description": "Full-length floor-grazing wrap lounge robe fabricated from premium washed Belgian linen textures.",
+    "price": 148,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Bleached Flax", "Slate Grey", "Midnight Plum"]
+  },
+  {
+    "model": "Vapor Cropped Zip Hoodie",
+    "description": "Ultra-soft modal blend cropped scuba zipper hood top complete with minimal sleeve graphics.",
+    "price": 118,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Cloud Pink", "Sage Haze", "Charcoal"]
+  },
+  {
+    "model": "Gale Heavy Sailing Pants",
+    "description": "Reinforced abrasion-resistant marine deck cargo utility trousers engineered with quick-dry fabrications.",
+    "price": 140,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Admiralty Navy", "Signal Red", "Anchor Charcoal"]
+  },
+  {
+    "model": "Alpha Track Trousers",
+    "description": "Premium double-knit track pants styled with modern tailored tapered ankles and clean pintuck seams.",
+    "price": 110,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Forest Green/Gold", "Maroon/White", "Classic Black/White"]
+  },
+  {
+    "model": "Elysian Peplum Blouse",
+    "description": "Structured heavy cotton poplin top sporting structural puffed sleeves and tailored peplum flare finishes.",
+    "price": 115,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Optic Clear White", "Lavender Fields", "Midnight Black"]
+  },
+  {
+    "model": "Mirage Linen Shirtdress",
+    "description": "Relaxed button-through linen midi shirtdress complete with a matching detachable fabric waist belt line.",
+    "price": 135,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Mustard Gold", "Olive Branch Green", "Natural Cream"]
+  },
+  {
+    "model": "Aura Mesh Training Shirt",
+    "description": "High-ventilation running jersey utilizing recycled materials and reflective heat-transfer print branding.",
+    "price": 102,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Neon Yellow", "Electric Blue", "Stealth Grey"]
+  },
+  {
+    "model": "Summit Shell Poncho",
+    "description": "Over-sized 3-layer laminated emergency technical shelter rain poncho built with seam-sealed tech.",
+    "price": 145,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Emergency Orange", "Olive Drab", "Matte Midnight"]
+  }
+]

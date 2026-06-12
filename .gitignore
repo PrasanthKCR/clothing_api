@@ -1,0 +1,11 @@
+# Ignore the virtual environment folder
+venv/
+.venv/
+api/
+
+# Ignore local database configurations or history
+db.sqlite3
+.idea/
+__pycache__/
+*.pyc
+staticfiles/
