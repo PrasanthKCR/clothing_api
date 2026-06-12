@@ -1,6 +1,6 @@
 import requests
 
-URL = "http://127.0.0.1:8000/api/products/"
+URL = "https://clothing-api-6v7c.onrender.com/api/products/"
 
 DATA = [
   # ==================== MEN'S APPAREL (34 Items) ====================

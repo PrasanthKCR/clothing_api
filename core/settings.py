@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     
     # Your Created Apps
     'products',
+    'orders'
 ]
 
 MIDDLEWARE = [
@@ -65,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'core.wsgi:application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database Configuration
@@ -80,7 +81,20 @@ DATABASES = {
 
 
 # Django REST Framework & Global Configurations
+# REST_FRAMEWORK = {
+#     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+#     'PAGE_SIZE': 10,  # Slices lists into 10 items per page by default
+#     'DEFAULT_FILTER_BACKENDS': [
+#         'django_filters.rest_framework.DjangoFilterBackend',
+#         'rest_framework.filters.OrderingFilter',
+#     ],
+# }
+
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',  # Explictly restores the UI's style & session tracking
+        'rest_framework.authentication.TokenAuthentication',    # Keeps token auth available for client headers
+    ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 10,  # Slices lists into 10 items per page by default
     'DEFAULT_FILTER_BACKENDS': [
